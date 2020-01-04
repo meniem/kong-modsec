@@ -1,6 +1,7 @@
 # Building ModSecurity WAF on Kong API Gateway
 
 ![N|Solid](https://konghq.com/wp-content/uploads/2017/09/kong-logo.png) ![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRftH-Nof5iVPEDTeul5tZLUWBo5ALCkx3Fbe1kUjc-rJtSMtRk&s)
+
 Kong is one of the most popular open source Microservice API Gateway which manages the communication between clients and microservices via API. It’s a Lua application running in Nginx and made possible by the lua-nginx-module.
 
 A great tool for securing Nginx-based applications is ModSecurity, used by over a million sites around the world. It protects against a broad range of Layer 7 attacks, such as SQL injection (SQLi), local file inclusion (LFI), and cross‑site scripting (XSS), which together accounted for 95% of known Layer 7 attacks in Q1 2017, according to Akamai. Best of all, ModSecurity is open source.
